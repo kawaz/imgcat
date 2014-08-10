@@ -1,0 +1,24 @@
+{
+  "name": "imgcat",
+  "version": "0.0.1",
+  "description": "cat image to terminal.",
+  "bin": {
+    "imgcat": "./imgcat.js"
+  },
+  "dependencies": {
+    "ansi-canvas": "^0.0.2",
+    "canvas": "^1.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "terminal",
+    "ascii",
+    "ansi"
+  ],
+  "author": "Yoshiaki Kawazu <kawazzz@gmail.com>",
+  "license": "MIT"
+}
