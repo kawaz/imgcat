@@ -1,5 +1,5 @@
 
-var tc = require('./node_modules/ansi-canvas/');
+var tc = require('ansi-canvas');
 var Canvas = require('canvas');
 
 // create terminal <canvas>
