@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 var tc = require('ansi-canvas');
 var Canvas = require('canvas');
 
