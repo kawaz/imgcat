@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 var tc = require('ansi-canvas');
-var Canvas = require('canvas');
+//var Canvas = require('canvas');
+var Canvas = require('ansi-canvas/node_modules/canvas');
+var Image = Canvas.Image;
 
 // create terminal <canvas>
 var canvas = tc();
@@ -11,7 +13,7 @@ var maxWidth = parseInt(process.argv[3], 10) || screenWidth;
 
 var imageFile = process.argv[2];
 var image = require('fs').readFileSync(imageFile);
-var img = new Canvas.Image();
+var img = new Image();
 img.src = image;
 
 

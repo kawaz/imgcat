@@ -6,8 +6,7 @@
     "imgcat": "./imgcat.js"
   },
   "dependencies": {
-    "ansi-canvas": "^0.0.2",
-    "canvas": "1.0.4"
+    "ansi-canvas": "^0.0.2"
   },
   "devDependencies": {},
   "scripts": {
