@@ -8,7 +8,7 @@ var Image = Canvas.Image;
 var canvas = tc();
 var ctx = canvas.getContext('2d');
 
-var imageFile = process.argv[2];
+var imageFile = process.argv[2] || "/dev/stdin";
 var image = require('fs').readFileSync(imageFile);
 var img = new Image();
 img.src = image;
